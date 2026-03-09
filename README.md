@@ -1,93 +1,233 @@
-# Field-Aware AI in Construction
+# Field-Aware AI for Construction Cost Control
 
-## Defining a Field-First Cost Signal Model
+Field-Aware AI is a conceptual framework for improving construction cost control by capturing operational signals directly from daily jobsite execution instead of reconstructing events after the fact.
 
-Total Cost Control (TCC) is a field-first construction cost signal platform designed to capture execution reality before enforcing reporting structure.
+The concept forms the foundation of the **TCC – Total Cost Control** system.
 
-Construction projects are dynamic by nature.  
-Weather shifts. Crews adjust. Deliveries move. Conditions change.  
-
-Traditional reporting systems attempt to impose structure at the moment of capture. This early enforcement introduces interpretation, distortion, and delayed signal detection.
-
-The field-aware sequencing model reverses that order:
-
-**Capture → Structure → Validate**
-
-1. Capture reality as it occurred  
-2. Apply structure after context is preserved  
-3. Govern deliberately at the project management layer  
-
-This separation reduces reporting friction while improving signal integrity.
+Traditional construction reporting explains what happened **after the work is completed**.  
+Field-Aware AI focuses on observing the signals of cost drift **while the work is happening**.
 
 ---
 
-## Core Principles
+# The Problem: Reconstruction Reporting
 
-### 1. Capture Before Control
-Structure applied too early weakens signal quality. Accurate capture must precede governance.
+Most construction cost control systems rely on reconstruction reporting.
 
-### 2. AI as Interpretation Buffer
-Artificial intelligence absorbs categorization complexity without redefining field workflows.
+Typical workflow:
 
-### 3. Signal Integrity Over Dashboard Complexity
-The objective is not more reporting. It is earlier clarity.
+Work happens on site  
+↓  
+Daily reports recorded  
+↓  
+Weekly summaries  
+↓  
+Month-end cost reports  
+↓  
+Variance analysis
 
-### 4. Governance Without Friction
-Project managers retain full authority, auditability, and validation control.
+By the time a cost variance appears in a report, the operational cause may have occurred days or weeks earlier.
 
----
+Examples of late-detected issues include:
 
-## The Problem Addressed
+- declining crew productivity  
+- equipment inefficiency  
+- material waste  
+- sequencing problems  
+- delivery delays  
+- labour hours exceeding estimate  
 
-Most construction reporting systems require the field to translate execution into predefined workflows during unstable conditions.
-
-This produces:
-
-- Simplified entries  
-- Context hidden in notes  
-- Delayed visibility into cost drift  
-- Data repair cycles at the PM level  
-
-The issue is not discipline.  
-It is sequencing.
-
----
-
-## Applied Example
-
-Planned production: 200 meters  
-Actual installed: 140 meters  
-Crew adjusted mid-day  
-Weather interference present  
-
-Traditional systems enforce categorization first.  
-Variance appears later in cost cycles.
-
-Field-aware sequencing captures context first.  
-Structure is applied after.  
-Variance signals appear earlier.
+Construction projects rarely fail because of one catastrophic mistake.  
+They drift off course gradually as small deviations accumulate.
 
 ---
 
-## Category Definition
+# The Field-Aware Model
 
-TCC operates as a **field-first cost signal layer** between execution and governance.
+Field-Aware AI reverses the traditional reporting sequence.
 
-It does not replace ERP systems or project management platforms.  
-It strengthens the connection between daily execution and cost control.
+Instead of reconstructing project history, the system observes operational signals in real time.
+
+Daily field activity  
+↓  
+Operational signals captured  
+↓  
+Production quantities structured  
+↓  
+Activity cost comparison  
+↓  
+Cost drift detection
+
+This allows project teams to detect problems within **24–72 hours** instead of discovering them during month-end reviews.
+
+The focus shifts from **explaining variance** to **preventing variance**.
 
 ---
 
-## Intended Audience
+# Operational Signals in Construction
 
-- Mid-sized contractors  
-- Project managers responsible for cost and execution  
-- Organizations seeking earlier visibility without increasing field burden  
+Construction sites already generate the data needed to detect cost drift.
+
+Typical signals include:
+
+### Labour
+- worker hours
+- crew composition
+- activity codes
+- labour productivity
+
+### Equipment
+- operating hours
+- idle time
+- utilization rates
+
+### Materials
+- delivered quantities
+- installed quantities
+- consumption rates
+
+### Production
+- installed units
+- quantities completed
+- output per crew hour
+
+### Context
+- weather conditions
+- subcontractor activity
+- work orders
+- site events
+
+When structured consistently, these signals allow systems like TCC to detect operational deviations before they impact project finances.
 
 ---
 
-## Strategic Objective
+# Example: Daily Construction Execution Dataset
 
-Improve signal integrity in construction cost control by reducing distortion at the point of capture.
+A simplified daily jobsite report may include data such as:
 
-Artificial intelligence is used with restraint — not to automate decisions, but to preserve reality before governance is applied.
+### Labour
+
+| Worker | Hours | Activity |
+|------|------|------|
+| Martin Poirier | 5 | Excavation |
+
+### Equipment
+
+| Equipment | Hours | Activity |
+|------|------|------|
+| 12-wheel dump truck | 5 | Excavation |
+
+### Materials
+
+| Material | Quantity |
+|------|------|
+| MG-20 aggregate | 100 tonnes |
+
+### Production
+
+| Activity | Output |
+|------|------|
+| Seeding | 500 m² |
+
+When linked to activity cost structures, these signals allow early detection of:
+
+- productivity drift  
+- cost variance  
+- resource inefficiencies  
+
+---
+
+# Why Early Signals Matter
+
+Cost overruns rarely originate from a single event.
+
+They emerge from gradual deviations such as:
+
+- productivity reductions  
+- higher labour hours per unit  
+- equipment under-utilization  
+- sequencing inefficiencies  
+
+By the time these issues appear in financial reports, corrective action may already be too late.
+
+Field-Aware AI detects the signals earlier so project teams can respond before the deviation compounds.
+
+---
+
+# Relationship to TCC
+
+Field-Aware AI is implemented in the **TCC – Total Cost Control** platform.
+
+TCC connects daily field reports directly to project cost tracking so that operational signals become visible immediately.
+
+This enables:
+
+- early detection of cost drift  
+- productivity monitoring  
+- real-time cost visibility  
+
+Learn more about the platform:
+
+**TCC – Construction Cost Control Software**  
+https://www.projesttcc.com
+
+---
+
+# White Paper
+
+A deeper explanation of the concept is available in the white paper:
+
+**When Software Gets Out of the Way – Field-Aware AI in Construction**
+
+https://www.projesttcc.com/field-aware-ai
+
+---
+
+# Ecosystem
+
+Field-Aware AI exists within a broader construction technology ecosystem.
+
+### TCC
+Construction cost control and early variance detection  
+https://www.projesttcc.com
+
+### Machloc
+Heavy equipment marketplace and machinery knowledge platform  
+https://machloc.com
+
+### Projestim
+Construction project control assistant  
+https://chatgpt.com/g/g-M3l36Oqim-projestim-construction-project-control-assistant
+
+### Machloc AI
+Heavy equipment specialist assistant  
+https://chatgpt.com/g/g-GVQGzaku7-machloc-inc-ai-heavy-equipment-machinery-exc
+
+---
+
+# Design Philosophy
+
+Field-Aware AI is based on a simple principle:
+
+AI succeeds in construction not by changing how work happens,  
+but by understanding how it already does.
+
+Construction sites already produce valuable operational signals.  
+The challenge is structuring those signals so they become visible to project controls.
+
+Capture precedes control.
+
+Once execution reality is structured correctly, governance becomes proactive instead of reactive.
+
+---
+
+# Author
+
+Pascal Patrice  
+Construction Project Director  
+Developer of the TCC platform
+
+---
+
+# License
+
+MIT License
